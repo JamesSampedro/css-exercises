@@ -31,7 +31,7 @@ body {
 
 
 /* My Solution */
-.body {
+body {
   display: flex;
   flex-direction: column;
 }
@@ -45,8 +45,8 @@ body {
 }
 
 .container {
-  display: flex;
   flex: 1;
+  display: flex;
 }
 
 .sidebar {
@@ -61,7 +61,6 @@ body {
   list-style-type: none;
   padding: 16px;
   margin: 0;
-
 }
 
 .sidebar a {
